@@ -37,6 +37,10 @@ ChromecastTech = {
 
       this.videojsPlayer = this.videojs(options.playerId);
       this._chromecastSessionManager = this.videojsPlayer.chromecastSessionManager;
+       
+      if (!this._chromecastSessionManager) {
+          return console.warn('No chromecast session manager');
+      }
 
       // We have to initialize the UI here, before calling super.constructor
       // because the constructor calls `createEl`, which references `this._ui`.
