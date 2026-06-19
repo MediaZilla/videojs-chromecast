@@ -1,3 +1,7 @@
+> [!WARNING]
+  > This repository is archived and no longer actively maintained. It is preserved for historical reference only. No new issues, pull requests, or contributions will be accepted.
+  > For the active codebase, see the [MediaZilla organization](https://github.com/MediaZilla).
+
 # Silvermine VideoJS Chromecast Plugin
 
 [![Build Status](https://travis-ci.org/silvermine/videojs-chromecast.svg?branch=master)](https://travis-ci.org/silvermine/videojs-chromecast)
